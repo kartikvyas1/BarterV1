@@ -1,0 +1,13 @@
+create a new repo on github
+
+create a new folder in local system(laptop)
+git bash into the new folder and type 
+	"git init"
+	git pull <github repo link>
+	git remote add origin remote <github repo link>
+	git remote -v
+	# make changes to existing files or add new files to commit
+	git add .
+	git commit 
+	git push origin master
+	# this should prompt for user name and password.

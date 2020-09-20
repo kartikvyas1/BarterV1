@@ -1,0 +1,126 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <!-- // a scroll view has a single child or a single function-->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/skipLogInButton"
+        android:layout_width="98dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/Padding_normal_8"
+        android:layout_marginRight="@dimen/Padding_extra_large_18"
+        android:background="@color/colorPrimary"
+        android:text="skip"
+        android:textColor="@color/txt_color_black" />
+
+    <ImageView
+        android:id="@+id/logInLogo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/skipLogInButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/Padding_extra_large_18"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/bg2" />
+
+    <EditText
+        android:id="@+id/enterPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logInLogo"
+        android:layout_marginRight="@dimen/Padding_extra_large_18"
+        android:layout_marginLeft="@dimen/Padding_extra_large_18"
+        android:layout_marginTop="@dimen/Padding_medium_10"
+        android:paddingStart="@dimen/padding_small_5"
+        android:paddingTop="@dimen/padding_small_5"
+        android:hint="@string/PhoneNumber"
+        android:inputType="number"
+        android:autofillHints="7597638161" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterPhoneNo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Or"
+        android:id="@+id/Or"
+        android:layout_marginTop="@dimen/Padding_extra_large_18"
+        android:layout_marginBottom="@dimen/Padding_extra_large_18"
+        android:layout_marginLeft="@dimen/Padding_extra_large_18"
+        android:layout_marginRight="@dimen/Padding_extra_large_18"/>
+
+
+    <EditText
+        android:id="@+id/enterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Or"
+        android:layout_marginRight="@dimen/Padding_extra_large_18"
+        android:layout_marginLeft="@dimen/Padding_extra_large_18"
+        android:layout_marginTop="@dimen/Padding_medium_10"
+        android:paddingLeft="@dimen/padding_small_5"
+        android:paddingTop="@dimen/padding_small_5"
+        android:hint="@string/EnterEmail"
+        android:autofillHints="karthikvyas.030595@gmail.com"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/GenOtpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/Padding_extra_large_18"
+        android:layout_marginRight="@dimen/Padding_extra_large_18"
+        android:layout_marginLeft="@dimen/Padding_extra_large_18"
+        android:paddingRight="@dimen/padding_small_5"
+        android:paddingLeft="@dimen/padding_small_5"
+        android:layout_below="@id/enterEmail"
+        android:background="@drawable/rounded_box_green"
+        android:text="@string/GenOtp"
+        android:textColor="@color/txt_color_black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GenOtpButton"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/EnterOTP"
+        android:id="@+id/EnterOtp"
+        android:layout_marginTop="@dimen/Padding_extra_large_18"
+        android:layout_marginBottom="@dimen/Padding_extra_large_18"
+        android:layout_marginLeft="@dimen/Padding_extra_large_18"
+        android:layout_marginRight="@dimen/Padding_extra_large_18"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/loginOr"-->
+<!--        android:text="@string/new_user"-->
+<!--        android:id="@+id/loginNewUser"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="@dimen/Padding_extra_large_18"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/SignUp"
+        android:layout_below="@+id/EnterOtp"
+        android:layout_marginStart="@dimen/Padding_medium_10"
+        android:layout_marginEnd="@dimen/Padding_extra_large_18"
+        android:id="@+id/CreateAccount"
+        android:textColor="#ff0000"/>
+
+
+  </RelativeLayout>
+
+</ScrollView>

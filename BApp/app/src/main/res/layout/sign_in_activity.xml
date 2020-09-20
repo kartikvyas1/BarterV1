@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="login page"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.723" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPersonName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.684" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPassword"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="submit"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/skipButton3"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:text="skip"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.948"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.306" />-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- // a scroll view has a single child or a single function-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/skipLogInButton"
+            android:layout_width="98dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/Padding_normal_8"
+            android:layout_marginRight="@dimen/Padding_extra_large_18"
+            android:background="@color/colorPrimary"
+            android:text="skip"
+            android:textColor="@color/txt_color_black" />
+
+        <ImageView
+            android:id="@+id/logInLogo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/skipLogInButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/Padding_extra_large_18"
+            android:src="@drawable/bg2" />
+
+        <EditText
+            android:id="@+id/enterPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logInLogo"
+            android:layout_marginRight="@dimen/Padding_extra_large_18"
+            android:layout_marginLeft="@dimen/Padding_extra_large_18"
+            android:layout_marginTop="@dimen/Padding_medium_10"
+            android:paddingLeft="@dimen/padding_small_5"
+            android:paddingTop="@dimen/padding_small_5"
+            android:hint="@string/PhoneNumber"/>
+
+        <EditText
+            android:id="@+id/enterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enterPhoneNo"
+            android:layout_marginRight="@dimen/Padding_extra_large_18"
+            android:layout_marginLeft="@dimen/Padding_extra_large_18"
+            android:layout_marginTop="@dimen/Padding_extra_large_18"
+            android:paddingLeft="@dimen/padding_small_5"
+            android:paddingTop="@dimen/padding_small_5"
+            android:hint="@string/password"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="98dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/Padding_extra_large_18"
+            android:layout_marginRight="@dimen/Padding_extra_large_18"
+            android:layout_marginLeft="@dimen/Padding_extra_large_18"
+            android:layout_below="@id/enterPassword"
+            android:background="@drawable/rounded_box_green"
+            android:text="@string/login"
+            android:textColor="@color/txt_color_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/submitButton"
+            android:layout_centerHorizontal="true"
+            android:text="OR"
+            android:id="@+id/loginOr"
+            android:layout_marginTop="@dimen/Padding_extra_large_18"
+            android:layout_marginBottom="@dimen/Padding_extra_large_18"
+            android:layout_marginLeft="@dimen/Padding_extra_large_18"
+            android:layout_marginRight="@dimen/Padding_extra_large_18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginOr"
+            android:text="@string/new_user"
+            android:id="@+id/loginNewUser"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/Padding_extra_large_18"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/SignUp"
+            android:layout_toRightOf="@+id/loginNewUser"
+            android:layout_below="@+id/loginOr"
+            android:layout_marginLeft="@dimen/Padding_medium_10"
+            android:layout_marginRight="@dimen/Padding_extra_large_18"
+            android:id="@+id/logInSignUp"
+            android:textColor="#ff0000"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28cdb883-ed99-46e7-a14a-5a1d8408abc4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/java/com/example/barterv1/UtilityPackage1/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/java/com/example/barterv1/UtilityPackage1/SharedPreference1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/java/com/example/barterv1/loginActivity/ForgotPasswordActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/java/com/example/barterv1/loginActivity/SignInActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/java/com/example/barterv1/loginActivity/SignUpActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/java/com/example/barterv1/splashScreen/splashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/res/drawable/paydetail.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/res/layout/forgot_password_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/res/layout/sign_in_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/res/layout/sign_up_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BApp/app/src/main/res/layout/splash_activity_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javaCode/src/JavaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaCode/src/JavaCode.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\kvyas\Downloads\BarterV1\flutter1\MyApplication_demo\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hPNISzxdy7ZrCSun1b5agC7S0Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28cdb883-ed99-46e7-a14a-5a1d8408abc4" name="Default Changelist" comment="" />
+      <created>1599908687241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599908687241</updated>
+    </task>
+    <servers />
+  </component>
+</project>

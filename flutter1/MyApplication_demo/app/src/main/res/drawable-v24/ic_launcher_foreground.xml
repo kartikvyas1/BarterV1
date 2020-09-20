@@ -1,0 +1,46 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class JavaCode {
+
+    private static Scanner scan1;
+
+    public static void main(String[] args) {
+
+        welcome();
+        firstPage();
+
+    }
+
+    public static void welcome(){
+        System.out.println("\t\t\tWelcome to Barter Simulation.\n" +
+                "We are currently running the Beta version.\n" +
+                "the app icon will be displayed here.\n" +
+                "and then we will directly go to app functions.\n" +
+                "\t\t1.\tif this is the first installation, the registration page will pop up.\n" +
+                "\t\t2.\tElse the user profile will be displayed.\n" +
+                "Your location will be saved with each product you list so please grant access to Location API\n");
+    }
+
+    public static void firstPage() {
+        scan1 = new Scanner(System.in);
+        System.out.println("Please enter your name:");
+        String user1 = scan1.nextLine();
+        UserDetails initUser = UserDetails.getInstance(user1);
+        System.out.println("****************************\n" +
+                "Hopefully  the login/registration should be done at this point.");
+        performOp(initUser);
+
+    }
+
+    private static void performOp(UserDetails user1) {
+        System.out.println("\n\nWhat would you like to do with this app:\n" +
+                "\t1.List your Product for exchange or selling.\n" +
+                "\t2.View your profile.\n" +
+                "\t3.View products for buying.\n");
+        int choice1 = scan1.nextInt();
+
+        switch (choice1){
+            case 1:
+                Product p1 = addNewProduct(user1);
+          

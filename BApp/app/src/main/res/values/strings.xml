@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="SignUp">Sign Up</string>
+    <string name="new_user">New User ?</string>
+    <string name="login">LogIn</string>
+    <string name="password">Enter Password</string>
+    <string name="PhoneNumber">Enter Phone No.</string>
+    <string name="EnterEmail">Enter E-mail Address</string>
+    <string name="GenOtp">Generate OTP</string>
+    <string name="EnterOTP">Enter OTP</string>
+    <string name="Or">Or</string>
+    <string name="app_name">BarterV1</string>
+    <string name="logo">Logo</string>
+</resources>

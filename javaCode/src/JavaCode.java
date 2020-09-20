@@ -77,6 +77,16 @@ public class JavaCode {
         for (Product count: user1.getProductList()){
             count.printProductDetails();
         }
+        // this is how listing of products will be done in android code:
+        // put this code inside oncreate method, prodlist is textview item
+//        prodList = findViewById(R.id.prodlist);
+//        ArrayAdapter<String> productadaptoer = new ArrayAdapter<>(){
+//            context: this,
+//            android.R.layout.simple_list_item_1,
+//            count
+//        };
+//        prodList.setAdapter(productadaptoer);
+
 
     }
 

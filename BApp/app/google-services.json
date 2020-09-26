@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "480505153784",
+    "firebase_url": "https://barterv1.firebaseio.com",
+    "project_id": "barterv1",
+    "storage_bucket": "barterv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480505153784:android:176256a7afd1ff6704530d",
+        "android_client_info": {
+          "package_name": "com.example.barterv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480505153784-0og1v6to59qhq6r5es7v28vmu8qdpu3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa6Ul15kG-GOTUlOP013nIQB02CedxQkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480505153784-0og1v6to59qhq6r5es7v28vmu8qdpu3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
